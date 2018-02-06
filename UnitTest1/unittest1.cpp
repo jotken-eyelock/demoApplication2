@@ -21,5 +21,11 @@ namespace UnitTest1
 			Assert::AreEqual(2, 2);
 			Assert::AreNotEqual(1, 0);
 		}
+		TEST_METHOD(TestMethod3)
+		{
+			// TODO: Your test code here
+			Assert::AreEqual(1, 1);
+			Assert::AreNotEqual(1, 0);
+		}
 	};
 }
